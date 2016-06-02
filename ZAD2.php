@@ -4,7 +4,6 @@
 	<body>
 	<?php
 	$niz=array(2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2);
-	
 //element niza:
 	$novi= array();
 foreach ($niz as $red=>$element){
@@ -13,16 +12,13 @@ foreach ($niz as $red=>$element){
 	echo max($novi);
 	echo "<br>";
 	echo "<hr>";
-
 	$i = sizeof($niz, 1);
-	
 //element niza:
 	echo count($niz, 1);
 	echo "<hr>";
 //element niza:
 	echo "$i";
 	echo "<hr>";
- 
  //stepenovanje niza
   foreach ($niz as $red=>$element) {
 	 echo $element**$red;
@@ -35,7 +31,6 @@ foreach ($niz as $red=>$element){
 	echo "<br>";
 }
 	echo "<hr>";
-
  //stepenovanje niza:
 foreach ($niz as $red=>$element){
 $res = 1;
@@ -46,8 +41,6 @@ for ($i = 0; $i < $red; $i++)
 echo $res;
 echo "<br>";
 }
-
 ?>
-
 	</body>
 </html>
