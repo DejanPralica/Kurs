@@ -8,7 +8,7 @@ div{
 
 }
 .stylish-input-group .input-group-addon{
-    background: white !important; 
+    background: white ; 
 }
 .stylish-input-group .form-control{
 	border-right:0; 
@@ -18,6 +18,7 @@ div{
 }
 .stylish-input-group button{
     border:0;
+	color:#D9230F;
     background:transparent;
 }}
 </style>
@@ -31,7 +32,7 @@ div{
         <div class="col-sm-6 col-sm-offset-3">
             <div id="imaginary_container"> 
                 <div class="input-group stylish-input-group">
-                    <input type="text" name="x" class="form-control"  placeholder="Pretrazi" >
+                    <input type="text" name="x" class="form-control"  placeholder="Pretrazi..." >
                     <span class="input-group-addon"> 
                         <button type="submit">
                             <span class="glyphicon glyphicon-search"></span>

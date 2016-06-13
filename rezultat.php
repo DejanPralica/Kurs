@@ -19,6 +19,9 @@ div{
 .stylish-input-group button{
     border:0;
     background:transparent;
+}
+.top{
+	margin-top: 20px;
 }}
 </style>
 	
@@ -41,8 +44,15 @@ div{
         </div>
 	</div>
 </div>
-
-<iframe src="https://www.bing.com/search?q=<?php echo $_GET['x']?>&go=Submit&qs=n&form=QBLH&pq=<?php echo $_GET['x']?>&sc=8-5&sp=-1&sk=&cvid=B9FD42242E4141229C9A122AFD686F13" width=100% height=100%></iframe>
-
+<div class="top">
+	<div class="shake-vertical shake-constant shake-constant--hover">
+		<?php 
+			$vap=trim($_GET['x']);
+			if((!empty($vap))){
+			echo "<iframe width=520% height=100% src='https://www.bing.com/search?q=$vap'></iframe>";
+		}?>
+	</div>
+</div> 
 	</body>
+	<link rel="stylesheet" type="text/css" href="http://csshake.surge.sh/csshake.min.css">
 </html>
